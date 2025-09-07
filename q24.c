@@ -20,7 +20,7 @@ int main() {
         bill = (100 * 5) + (100 * 7) + (100 * 10) + (units - 300) * 12;
     }
 
-    printf("Electricity Bill = ₹%.2f\n", bill);
+    printf("Electricity Bill = ruppees %.2f \n", bill);
 
     return 0;
 }
